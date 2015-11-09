@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+// ----------------------------------------------------------
+// Reset 1.0.0
+// Author: KINGZHI | https://blog.imeetyou.net | @zyj1022
+// Time: 2015-10-26
+// URL: https://github.com/zyj1022/muss
+// ----------------------------------------------------------
+
+// 使用频度不高的标签
+// abbr,acronym,bdi,bdo,big,blockquote,tt,big,small,
+// dfn,samp,kbd,var,cite,mark,menu,object,pre,sub,sup,
+// -------------------------------------------------
+
+//仅重置最常用的标签，其它标签根据需求自行添加
+a,address,article,aside,audio,
+b,canvas,caption,code,
+datalist,dd,dl,dt,del,details,dialog,
+em,embed,figcaption,figure,footer,form,
+h1,h2,h3,h4,h5,h6,header,html,
+iframe,ins,label,li,mark,nav,ol,p,q,
+section,span,strong,summary,time,
+u,ul,video {
+	margin:0;padding:0;border:0;
+	font-size:100%;font-weight:normal;
+	vertical-align:baseline;background:transparent;
+}
+
+article,aside,details,figcaption,figure,footer,header,nav,section,summary {display:block;}
+
+body {margin:0;}
+
+img {border:0;}
+
+ol,ul {list-style:none;}
+
+table {border-collapse:collapse;border-spacing:0;}
+
+td,th {padding:0;}

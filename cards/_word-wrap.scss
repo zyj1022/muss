@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+// word-value
+// Usage: @include word-value(normal);
+// Usage: @include word-value;
+// -------------------------------------------------------
+
+@mixin word-value($value: break-word) {
+  overflow-value: $value;
+  word-value: $value;
+  @if $value == break-word {
+    word-break: break-all;
+  } @else {
+    word-break: $value;
+  }
+}
