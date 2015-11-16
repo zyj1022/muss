@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 // word-value
-// Usage: @include word-value(normal);
-// Usage: @include word-value;
+// Usage: @include word-wrap(normal);
+// Usage: @include word-wrap;
 // -------------------------------------------------------
 
-@mixin word-value($value: break-word) {
+@mixin word-wrap($value: break-word) {
+  // normal | break-word
   overflow-value: $value;
   word-value: $value;
   @if $value == break-word {

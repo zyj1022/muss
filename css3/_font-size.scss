@@ -5,7 +5,18 @@
 // --------------------------------------------------
 
 // Pixel to rem font size converter
-@mixin font-size-rem($size) {
+@mixin font-size($size) {
   font-size: $size;
   font-size: font-rem($size);
+}
+
+@mixin line-height($size) {
+  line-height: $size;
+  line-height: font-rem($size);
+}
+
+@mixin font-all($size,$line,$color) {
+  @include font-size($size);
+  @include line-height($line);
+  color: $color;
 }
