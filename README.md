@@ -33,7 +33,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 - size
 - triangle
 - word-wrap
-- reset
+- reset 
 
 ### css3
 
@@ -48,6 +48,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 - text-shadow
 - transform
 - transition
+- media-queries
 
 ### function
 
