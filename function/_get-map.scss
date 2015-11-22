@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+// get map value
+@function get-value($map,$value){
+    @if not map-has-key($map,$value){
+        @warn "No value found for `#{$value}` in $map map. Property omitted.";
+    }
+    @return map-get($map,$value);
+}
+
+// get map key
+@function get-key($map,$No:1){
+  @return nth(map-keys($map),$No);
+}
