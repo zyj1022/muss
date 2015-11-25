@@ -1,4 +1,4 @@
-# MUSS 1.0.3
+# MUSS 1.0.4
 
 MUSS 是一个简单的sass库，根据工作中实践总结以及参考了同类库，正在逐步完善之中，
 MUSS 提供基础常用样式的调用，如果你有兴趣可以帮助一起完善这个库。
@@ -23,10 +23,12 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 - border
 - border-images
 - border-radius
+- center-block
 - clearfix
 - ellipsis
 - hide-text
 - image-2x
+- image-text
 - margin
 - padding
 - opacity
@@ -40,9 +42,11 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 设置css3属性前缀的文件，主要包含如下：
 
 - animation
+- appearance
 - background-gradient
 - background-opacity
 - background-size
+- flex-box
 - font-size
 - font-face
 - keyframes

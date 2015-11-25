@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 // ----------------------------------------------------------
-// MUSS 1.0.3
+// MUSS 1.0.4
 // Author: KINGZHI | https://blog.imeetyou.net | @zyj1022
-// Time: 2015-10-26 | Last Updated: 2015-11-22
+// Time: 2015-10-26 | Last Updated: 2015-11-25
 // URL: https://github.com/zyj1022/muss
 // ----------------------------------------------------------
 
@@ -18,17 +18,18 @@
 
 //CSS3
 @import "css3/animation";
+@import "css3/appearance";
 @import "css3/bg-opacity";
 @import "css3/bg-gradient";
 @import "css3/bg-size";
 @import "css3/font-face";
 @import "css3/font-size";
 @import "css3/keyframes";
+@import "css3/media-queries";
+@import "css3/perspective";
 @import "css3/text-shadow";
 @import "css3/transform";
 @import "css3/transition";
-@import "css3/media-queries";
-@import "css3/perspective";
 
 //Cards
 @import "cards/border";

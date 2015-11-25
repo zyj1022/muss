@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+// 分别获取 map 的 value 与 key
+// -------------------------------------------------------------------
+
 // get map value
 @function get-value($map,$value){
     @if not map-has-key($map,$value){
