@@ -46,6 +46,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 - background-gradient
 - background-opacity
 - background-size
+- box-sizing
 - flex-box
 - font-size
 - font-face
