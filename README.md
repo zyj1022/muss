@@ -1,4 +1,4 @@
-# MUSS 1.0.4
+# MUSS 1.0.5
 
 MUSS 是一个简单的sass库，根据工作中实践总结以及参考了同类库，正在逐步完善之中，
 MUSS 提供基础常用样式的调用，如果你有兴趣可以帮助一起完善这个库。
@@ -46,6 +46,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 - background-gradient
 - background-opacity
 - background-size
+- box-shadow
 - box-sizing
 - flex-box
 - font-size
