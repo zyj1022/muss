@@ -29,4 +29,20 @@
     border-top:$size dashed transparent;
     border-bottom:$size dashed transparent;
   }
+  @else if $direction == topleft {
+    border-top:$size solid $borderColor;
+    border-right:$size dashed transparent;
+  }
+  @else if $direction == topright {
+    border-top:$size solid $borderColor;
+    border-left:$size dashed transparent;
+  }
+  @else if $direction == bottomleft {
+    border-bottom:$size solid $borderColor;
+    border-right:$size dashed transparent;
+  }
+  @else if $direction == bottomright {
+    border-bottom:$size solid $borderColor;
+    border-left:$size dashed transparent;
+  }
 }
