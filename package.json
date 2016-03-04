@@ -1,6 +1,6 @@
 {
   "name": "muss",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "一个简单的基础SASS库，帮助你快速编写CSS样式",
   "main": "",
   "scripts": {
