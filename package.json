@@ -1,0 +1,32 @@
+{
+  "name": "muss",
+  "version": "1.0.5",
+  "description": "一个简单的基础SASS库，帮助你快速编写CSS样式",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyj1022/muss.git"
+  },
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "author": "kingzhi",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "muss": "./bin/muss.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zyj1022/muss/issues"
+  },
+  "homepage": "https://github.com/zyj1022/muss#readme",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.2"
+  }
+}

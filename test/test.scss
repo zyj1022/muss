@@ -1,0 +1,198 @@
+
+// --------------------------------------------------
+// MUSS Test  1.0
+// Author: KINGZHI | https://blog.imeetyou.net | @zyj1022
+// URL: https://github.com/zyj1022/muss
+// Time: 2015-11-5
+// --------------------------------------------------
+
+@import "../core/muss";
+
+//@include animate-zoomInDown;
+//@include animate-slideInLeft;
+//@include animate-rotateIn;
+//@include animate-bounce;
+
+
+.box-shadow {
+  @include box-shadow(2px, 2px, 4px ,#000);
+
+  @include box-shadow-inset(2px, 2px, 4px, 1px, #000)
+}
+
+body {
+  @include bg-opacity(#000,0.68);
+  color:$gray-base;
+  color:$gray-darker;
+  color:$gray-dark;
+  color:$gray;
+  color:$gray-light;
+  color:$gray-lighter;
+}
+
+body {
+  @include font-face(FontAwesome, '../font-face/fonts/fontawesome-webfont');
+}
+
+.text-shadow {
+  @include text-shadow(1px, 2px, 4px, #000);
+}
+
+.border-radius {
+  @include border-radius;
+}
+
+.box-t2b {
+  width: 250px;
+  height: 250px;
+  @include bg-gradient-t2b(#fff, #000);
+}
+
+.box-l2r {
+  width: 250px;
+  height: 250px;
+  @include bg-gradient-l2r(#fff, #000);
+}
+
+.box-radial {
+  width: 250px;
+  height: 250px;
+  @include bg-radial(#fff, 0%, #000, 100%);
+}
+
+.bg-size {
+  @include bg-size(100%);
+}
+
+.padding {
+  //@include padding-all(5px,10px);
+  @include padding-all(26px, 10px, null, 10px);
+}
+
+.padding-shorthand {
+  @include padding(26px 10px 10px);
+}
+
+.margin {
+  @include margin-all(26px, null, null, 10px);
+}
+
+.margin-shorthand {
+  @include margin(26px 10px 10px);
+}
+
+.opacity {
+   @include opacity(0.5);
+}
+
+p {
+  @include font-size(26px);
+}
+
+.border-radius {
+  background: #000;
+  @include size(100px,200px);
+  @include border-radius(5px 10px 15px 20px);
+}
+
+img.with-border-image {
+  @include border-image("border.png", 100%, 1, 0, stretch);
+}
+.prefixes {
+   @include prefixes(border-radius,10px);
+}
+.prefixes {
+   @include prefixes(border-radius,10px,webkit moz spec);
+}
+
+.size {
+  @include size(10px,20px);
+}
+
+.center-block {
+  @include center-block;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.ellipsis {
+  @include ellipsis;
+}
+.hide-text {
+  @include hide-text;
+}
+.wrod-value {
+  @include word-wrap;
+}
+.wrod-value-normal {
+  @include word-wrap(normal);
+}
+
+
+@include keyframes(fadeIn) {
+  from {
+    opacity: 0;
+  }
+  to {
+  opacity: 1;
+  }
+}
+
+
+.animation {
+  @include animation(myMove 1.0s ease-in, slide 2.0s ease);
+}
+.animation-name {
+  @include animation-name(myMove, slide);
+}
+.animation-duration {
+  @include animation-duration(2s);
+}
+.animation-timing-function {
+  @include animation-timing-function(ease);
+}
+.animation-iteration-count {
+  @include animation-iteration-count(infinite);
+}
+.animation {
+  @include animation-direction(alternate);
+}
+.animation-direction {
+  @include animation-play-state(paused);
+}
+.animation-delay {
+  @include animation-delay(2s);
+}
+.animation-fill-mode {
+  @include animation-fill-mode(backwards);
+}
+
+.transform {
+  @include transform(scale(0.9));
+  @include transform(rotate(-3deg) scale(0.9));
+}
+.transform-origin {
+  @include transform-origin(50%);
+  @include transform-origin(50% 100%);
+}
+.transform-style {
+  @include transform-style(preserve-3d);
+}
+
+.transition {
+   @include transition(all 1.0s ease-in-out);
+}
+.transition-property {
+  @include transition-property(transform);
+}
+.transition-duration {
+  @include transition-duration(2.0s);
+}
+.transition-timing-function{
+  @include transition-timing-function(ease-in);
+}
+.transition-delay{
+  @include transition-delay(0.5s);
+}
