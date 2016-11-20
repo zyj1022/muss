@@ -1,4 +1,4 @@
-#MUSS 一个简单的sass库 
+#MUSS 一个简单的sass库
 
 根据工作中实践总结以及参考了同类库，正在逐步完善之中， MUSS 提供基础常用样式的调用，如果你有兴趣可以帮助一起完善这个库。
 
@@ -9,7 +9,7 @@
 
 	npm install muss -g
 
-#使用方法	
+#使用方法
 
 然后进入工作目录
 
@@ -46,6 +46,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 -	triangle
 -	word-wrap
 -	reset
+-   nth-child
 
 ### css3
 
@@ -67,6 +68,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 -	text-shadow
 -	transform
 -	transition
+-   flex - flex 布局用法
 
 ### function
 
@@ -96,3 +98,7 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 -	slide
 -	specials
 -	zoom
+
+### nth-child
+
+CSS伪类 :Nth-Child 的用法 [Demo用法效果](http://lukyvj.github.io/family.scss/)
