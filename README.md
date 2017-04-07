@@ -1,17 +1,17 @@
-#MUSS 一个简单的sass库
+# MUSS 一个简单的sass库
 
 [![npm version](https://badge.fury.io/js/muss.svg)](https://badge.fury.io/js/muss)
 
 根据工作中实践总结以及参考了同类库，正在逐步完善之中， MUSS 提供基础常用样式的调用，如果你有兴趣可以帮助一起完善这个库。
 
-#安装方法
+# 安装方法
 
 
 安装node，之后全局安装muss
 
 	npm install muss -g
 
-#使用方法
+# 使用方法
 
 然后进入工作目录
 
@@ -23,7 +23,7 @@
 	@import "muss/muss";
 
 
-#文件描述
+# 文件描述
 
 
 MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包含如下文件
