@@ -1,5 +1,7 @@
 #MUSS 一个简单的sass库
 
+[![npm version](https://badge.fury.io/js/muss.svg)](https://badge.fury.io/js/muss)
+
 根据工作中实践总结以及参考了同类库，正在逐步完善之中， MUSS 提供基础常用样式的调用，如果你有兴趣可以帮助一起完善这个库。
 
 #安装方法
