@@ -2,6 +2,11 @@
 logs
 *.log
 
+# vscode
+.vscode
+
+.DS_Store
+
 # Runtime data
 pids
 *.pid
