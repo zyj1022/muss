@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+// ----------------------------------------
+// Material Design
+// @link https://material.io/design/
+// ----------------------------------------
+
+// box-shadow 属性向框添加一个或多个阴影
+@mixin mc-shadow($depth) {
+  @include transition(all 0.5s ease-in-out);
+  @if $depth == 1 {
+    box-shadow: 0 2px 4px rgba($mc-black, 0.25), 0 4px 8px rgba($mc-black, 0.05);
+  }
+  @if $depth == 2 {
+    box-shadow: 0 4px 8px rgba($mc-black, 0.25), 0 8px 24px rgba($mc-black, 0.05);
+  }
+  @if $depth == 3 {
+    box-shadow: 0 8px 10px rgba($mc-black, 0.28), 0 10px 50px rgba($mc-black, 0.12);
+  }
+  @if $depth == 4 {
+    box-shadow: 0 10px 15px rgba($mc-black, 0.28), 0 15px 60px rgba($mc-black, 0.18);
+  }
+  @if $depth == 5 {
+    box-shadow: 0 15px 20px rgba($mc-black, 0.30), 0 20px 65px rgba($mc-black, 0.18);
+  }
+}

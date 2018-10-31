@@ -104,3 +104,10 @@ MUSS 目前涵盖了目前常用的样式核心，避免样式冗余，主要包
 ### nth-child
 
 CSS伪类 :Nth-Child 的用法 [Demo用法效果](http://lukyvj.github.io/family.scss/)
+
+### theme
+
+配色主题：
+- ant-colors —— Ant Design 色系
+- material-colors —— Material Design 色系
+- material-shadows —— Material Design 阴影
